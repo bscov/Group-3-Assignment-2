@@ -1,0 +1,74 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  OBJ = 194 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 _C1          NL      18.00000        .           18.00000         .           -1.00000     176.00000 d1
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     2 _C10         NL      22.00000        .           22.00000     -172.00000      -1.00000        .      d8
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     3 _C2          NL      66.00000        .           66.00000       44.00000      -1.00000     172.00000 _C4
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     4 _C3          NL      44.00000        .           44.00000      -18.00000        .          194.00000 d3
+                                            .               +Inf       66.00000          +Inf     194.00000 _C4
+
+     5 _C4          BS      22.00000     -22.00000        .                +Inf      -1.00000     172.00000 _C2
+                                            .               +Inf           -Inf        .          194.00000 _C3
+
+     6 _C5          NL      44.00000        .           44.00000      -84.00000      -1.00000      66.00000 d4
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     7 _C6          NL      44.00000        .           44.00000       44.00000      -1.00000     194.00000 _C9
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     8 _C7          NL      22.00000        .           22.00000     -128.00000        .          194.00000 d6
+                                            .               +Inf       22.00000          +Inf     194.00000 _C9
+
+     9 _C8          NL      22.00000        .           22.00000     -150.00000        .          194.00000 d7
+                                            .               +Inf       22.00000          +Inf     194.00000 _C9
+
+    10 _C9          BS        .             .             .                +Inf      -1.00000     194.00000 _C6
+                                            .               +Inf           -Inf        .          194.00000 _C7
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  OBJ = 194 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 d0           NL        .           -1.00000        .           -18.00000      -1.00000     194.00000 d1
+                                            .               +Inf           +Inf          +Inf     194.00000
+
+     2 d8           BS     194.00000       1.00000        .                +Inf       1.00000     194.00000 d0
+                                            .               +Inf      194.00000          +Inf          +Inf
+
+     3 d1           BS      18.00000        .             .                +Inf        .          194.00000 d0
+                                            .               +Inf       18.00000          +Inf          +Inf
+
+     4 d5           BS     172.00000        .             .                +Inf        .          194.00000 d0
+                                            .               +Inf      172.00000          +Inf          +Inf
+
+     5 d2           BS      84.00000        .             .                +Inf        .          194.00000 d0
+                                            .               +Inf       84.00000          +Inf          +Inf
+
+     6 d3           BS      62.00000        .             .            84.00000        .          194.00000 _C3
+                                            .               +Inf       62.00000          +Inf          +Inf
+
+     7 d4           BS     128.00000        .             .                +Inf        .          194.00000 d0
+                                            .               +Inf      128.00000          +Inf          +Inf
+
+     8 d6           BS     150.00000        .             .           150.00000        .          194.00000 _C7
+                                            .               +Inf      150.00000          +Inf          +Inf
+
+     9 d7           BS     172.00000        .             .           172.00000        .          194.00000 _C7
+                                            .               +Inf      172.00000          +Inf          +Inf
+
+End of report
