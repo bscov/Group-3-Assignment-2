@@ -26,10 +26,10 @@ Develop recommendation system:
 - G: Develop implementation plan
 - H: Write client proposal
 
-Graph diagrams for both projects are included in the [repository](https://github.com/bscov/Group-3-Assignment-2).
+Graph diagrams for the [prototype](https://github.com/bscov/Group-3-Assignment-2/blob/main/Graph_Diagram_Product_Prototype_Dev.png) and [recommedation system](https://github.com/bscov/Group-3-Assignment-2/blob/main/Graph_Diagram_Recommendation_System_Dev.png) are included in the repository.
 
 ## Standard Form Equation
-Hourly estimates for the expected, best-case, and worst-case variations of this problem are included in the [repository](https://github.com/bscov/Group-3-Assignment-2). The expected hours are represented in the equations below.
+Hourly estimates for the expected, best-case, and worst-case variations of this problem are represented on this [table](https://github.com/bscov/Group-3-Assignment-2/blob/main/Table_Tasks_Hours_Costs_Assignments.png). The expected hours are represented in the equations below.
 ### Develop product prototype
 - Objective function: Minimize Z = - d0 + d8
 - Subject to:
@@ -62,7 +62,7 @@ Hourly estimates for the expected, best-case, and worst-case variations of this 
 - -t5 + t6 >= 24
 
 ## Tools
-The linear programming code utilizes the Python PuLP library and GNU Linear Programming Kit (GLPK) package to minimize the task completion hours and conduct sensitivity analysis. Python code, Python output, and sensitivity analysis plain text files are included in the [repository](https://github.com/bscov/Group-3-Assignment-2).
+The linear programming code utilizes the Python PuLP library and GNU Linear Programming Kit (GLPK) package to minimize the task completion hours and conduct sensitivity analysis. Python code, Python output, and sensitivity analysis plain text files are included in the repository.
 
 ## Results
 The results are rounded to whole integers. Total cost is estimated using a $200,000 annual salary ($100 hourly rate) for each project team member.
@@ -76,11 +76,14 @@ The critical path was constant between all three hour estimates:
 - 336 hours to develop the product prototype
 - 408 hours to develop the recommendation system
 - $40,800 total labor cost
+- [view the Gantt Chart](https://github.com/bscov/Group-3-Assignment-2/blob/main/Gantt_Timeline_Expected_Hours.png)
 ### Best-Case Problem
 - 302 hours to develop the product prototype
 - 367 hours to develop the recommendation system
 - $36,700 total labor cost
+- [view the Gantt Chart](https://github.com/bscov/Group-3-Assignment-2/blob/main/Gantt_Timeline_BestCase_Hours.png)
 ### Worst-Case Problem
 - 369 hours to develop the product prototype
 - 448 hours to develop the recommendation system
 - $44,800 total labor cost
+- [view the Gantt Chart](https://github.com/bscov/Group-3-Assignment-2/blob/main/Gantt_Timeline_WorstCase_Hours.png)
