@@ -62,7 +62,7 @@ Hourly estimates for the expected, best-case, and worst-case variations of this 
 - -t5 + t6 >= 24
 
 ## Tools
-The linear programming code utilizes the Python PuLP library and GNU Linear Programming Kit (GLPK) package to minimize the task completion hours and conduct sensitivity analysis. [Python code](https://github.com/bscov/Group-3-Assignment-2/blob/main/Code_Assignment2.txt), [Python output](https://github.com/bscov/Group-3-Assignment-2/blob/main/Output_Assignment2.txt), and [sensitivity analysis](https://github.com/bscov/Group-3-Assignment-2) plain text files are included in the repository.
+The linear programming code utilizes the Python PuLP library and GNU Linear Programming Kit (GLPK) package to minimize the task completion hours and conduct sensitivity analysis. [Python code](https://github.com/bscov/Group-3-Assignment-2/blob/main/Code_Assignment2.py), [Python output](https://github.com/bscov/Group-3-Assignment-2/blob/main/Output_Assignment2.txt), and [sensitivity analysis](https://github.com/bscov/Group-3-Assignment-2) plain text files are included in the repository.
 
 ## Results
 The results are rounded to whole integers. Total cost is estimated using a $200,000 annual salary ($100 hourly rate) for each project team member.
