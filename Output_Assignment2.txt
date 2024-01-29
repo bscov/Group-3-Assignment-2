@@ -1,0 +1,227 @@
+Assignment 2 Code
+January 28, 2024
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/ed43016dcda84fc4a4e8fb5040cf9874-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/ed43016dcda84fc4a4e8fb5040cf9874-pulp.sol
+ --ranges sensitivity_exp_p.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/ed43016dcda84fc4a4e8fb5040cf9874-pulp.lp'...
+10 rows, 9 columns, 20 non-zeros
+15 lines were read
+GLPK Simplex Optimizer 5.0
+10 rows, 9 columns, 20 non-zeros
+Preprocessing...
+9 rows, 8 columns, 18 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 9
+      0: obj =   4.000000000e+01 inf =   3.760e+02 (7)
+      9: obj =   3.360000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (42553 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/ed43016dcda84fc4a4e8fb5040cf9874-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_exp_p.txt'...
+Status: Optimal
+d0 = 0.0
+d1 = 16.0
+d2 = 136.0
+d3 = 56.0
+d4 = 216.0
+d5 = 296.0
+d6 = 256.0
+d7 = 296.0
+d8 = 336.0
+Objective 336.0
+
+336.0
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/c7f0f12089bd451cb100dd3e3b17b2c6-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/c7f0f12089bd451cb100dd3e3b17b2c6-pulp.sol
+ --ranges sensitivity_exp_r.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/c7f0f12089bd451cb100dd3e3b17b2c6-pulp.lp'...
+13 rows, 10 columns, 26 non-zeros
+18 lines were read
+GLPK Simplex Optimizer 5.0
+13 rows, 10 columns, 26 non-zeros
+Preprocessing...
+12 rows, 9 columns, 24 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 12
+      0: obj =   4.000000000e+01 inf =   5.120e+02 (7)
+     11: obj =   4.080000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (44065 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/c7f0f12089bd451cb100dd3e3b17b2c6-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_exp_r.txt'...
+Status: Optimal
+t0 = 0.0
+t1 = 8.0
+t2 = 40.0
+t3 = 48.0
+t4 = 344.0
+t5 = 344.0
+t6 = 368.0
+t7 = 368.0
+t8 = 344.0
+t9 = 408.0
+Objective 408.0
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/a2a4ac7883bb4811805bfaa2fd61e75c-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/a2a4ac7883bb4811805bfaa2fd61e75c-pulp.sol
+ --ranges sensitivity_best_p.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/a2a4ac7883bb4811805bfaa2fd61e75c-pulp.lp'...
+10 rows, 9 columns, 20 non-zeros
+15 lines were read
+GLPK Simplex Optimizer 5.0
+10 rows, 9 columns, 20 non-zeros
+Preprocessing...
+9 rows, 8 columns, 18 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 9
+      0: obj =   3.600000000e+01 inf =   3.384e+02 (7)
+      9: obj =   3.024000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (42553 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/a2a4ac7883bb4811805bfaa2fd61e75c-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_best_p.txt'...
+Status: Optimal
+d0 = 0.0
+d1 = 14.4
+d2 = 122.4
+d3 = 50.4
+d4 = 194.4
+d5 = 266.4
+d6 = 230.4
+d7 = 266.4
+d8 = 302.4
+Objective 302.4
+
+302.4
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/21f1161381d144649aa8c54976313a22-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/21f1161381d144649aa8c54976313a22-pulp.sol
+ --ranges sensitivity_best_r.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/21f1161381d144649aa8c54976313a22-pulp.lp'...
+13 rows, 10 columns, 26 non-zeros
+18 lines were read
+GLPK Simplex Optimizer 5.0
+13 rows, 10 columns, 26 non-zeros
+Preprocessing...
+12 rows, 9 columns, 24 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 12
+      0: obj =   3.600000000e+01 inf =   4.608e+02 (7)
+     11: obj =   3.672000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (44065 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/21f1161381d144649aa8c54976313a22-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_best_r.txt'...
+Status: Optimal
+t0 = 0.0
+t1 = 7.2
+t2 = 36.0
+t3 = 43.2
+t4 = 309.6
+t5 = 309.6
+t6 = 331.2
+t7 = 331.2
+t8 = 309.6
+t9 = 367.2
+Objective 367.2
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/37527240ab18479b945d970cf29f25a5-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/37527240ab18479b945d970cf29f25a5-pulp.sol
+ --ranges sensitivity_worst_p.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/37527240ab18479b945d970cf29f25a5-pulp.lp'...
+10 rows, 9 columns, 20 non-zeros
+15 lines were read
+GLPK Simplex Optimizer 5.0
+10 rows, 9 columns, 20 non-zeros
+Preprocessing...
+9 rows, 8 columns, 18 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 9
+      0: obj =   4.400000000e+01 inf =   4.136e+02 (7)
+      9: obj =   3.696000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (42553 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/37527240ab18479b945d970cf29f25a5-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_worst_p.txt'...
+Status: Optimal
+d0 = 0.0
+d1 = 17.6
+d2 = 149.6
+d3 = 61.6
+d4 = 237.6
+d5 = 325.6
+d6 = 281.6
+d7 = 325.6
+d8 = 369.6
+Objective 369.6
+
+369.6
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/07efb489164c41a691c036a0ceb7b202-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/07efb489164c41a691c036a0ceb7b202-pulp.sol
+ --ranges sensitivity_worst_r.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/07efb489164c41a691c036a0ceb7b202-pulp.lp'...
+13 rows, 10 columns, 26 non-zeros
+18 lines were read
+GLPK Simplex Optimizer 5.0
+13 rows, 10 columns, 26 non-zeros
+Preprocessing...
+12 rows, 9 columns, 24 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 12
+      0: obj =   4.400000000e+01 inf =   5.632e+02 (7)
+     11: obj =   4.488000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (44065 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/07efb489164c41a691c036a0ceb7b202-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_worst_r.txt'...
+Status: Optimal
+t0 = 0.0
+t1 = 8.8
+t2 = 44.0
+t3 = 52.8
+t4 = 378.4
+t5 = 378.4
+t6 = 404.8
+t7 = 404.8
+t8 = 378.4
+t9 = 448.8
+Objective 448.8
