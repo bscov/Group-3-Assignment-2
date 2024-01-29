@@ -1,0 +1,94 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  OBJ = 367.2 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 _C1          NL       7.20000        .            7.20000         .           -1.00000     360.00000 t1
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     2 _C10         NL      21.60000        .           21.60000       21.60000      -1.00000     367.20000 _C11
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     3 _C11         BS        .             .             .                +Inf      -1.00000     367.20000 _C10
+                                            .               +Inf           -Inf        .          367.20000 _C7
+
+     4 _C12         BS     302.40000    -302.40000        .                +Inf      -1.00000      64.80000 _C3
+                                            .               +Inf      302.40000          +Inf          +Inf
+
+     5 _C13         NL      36.00000        .           36.00000     -331.20000      -1.00000        .      t9
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     6 _C2          NL      36.00000        .           36.00000         .             .          367.20000 t2
+                                            .               +Inf       43.20000          +Inf     367.20000 _C5
+
+     7 _C3          NL     302.40000        .          302.40000       72.00000      -1.00000     136.80000 _C8
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     8 _C4          NL      36.00000        .           36.00000       28.80000        .          367.20000 _C5
+                                            .               +Inf      266.40000          +Inf     367.20000 _C8
+
+     9 _C5          BS       7.20000      -7.20000        .           237.60000        .          367.20000 _C4
+                                            .               +Inf           -Inf        .          367.20000 _C2
+
+    10 _C6          NL        .             .             .              .           -1.00000     367.20000 _C11
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  OBJ = 367.2 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 _C7          NL        .             .             .          -230.40000        .          367.20000 _C8
+                                            .               +Inf         .               +Inf     367.20000 _C11
+
+    12 _C8          BS     266.40000    -230.40000      36.00000      266.40000        .          367.20000 _C7
+                                            .               +Inf           -Inf        .          367.20000 _C4
+
+    13 _C9          NL      21.60000        .           21.60000     -309.60000        .          367.20000 t6
+                                            .               +Inf       21.60000          +Inf     367.20000 _C11
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    
+Objective:  OBJ = 367.2 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 t0           NL        .           -1.00000        .            -7.20000      -1.00000     367.20000 t1
+                                            .               +Inf           +Inf          +Inf     367.20000
+
+     2 t9           BS     367.20000       1.00000        .                +Inf       1.00000     367.20000 t0
+                                            .               +Inf      367.20000          +Inf          +Inf
+
+     3 t1           BS       7.20000        .             .                +Inf        .          367.20000 t0
+                                            .               +Inf        7.20000          +Inf          +Inf
+
+     4 t7           BS     331.20000        .             .                +Inf        .          367.20000 t0
+                                            .               +Inf      331.20000          +Inf          +Inf
+
+     5 t8           BS     309.60000        .             .                +Inf        .          367.20000 t0
+                                            .               +Inf      309.60000          +Inf          +Inf
+
+     6 t6           BS     331.20000        .             .           331.20000        .          367.20000 _C7
+                                            .               +Inf      331.20000          +Inf          +Inf
+
+     7 t2           BS      36.00000        .             .            43.20000        .          367.20000 _C2
+                                            .               +Inf       36.00000          +Inf          +Inf
+
+     8 t4           BS     309.60000        .             .                +Inf        .          367.20000 t0
+                                            .               +Inf      309.60000          +Inf          +Inf
+
+     9 t3           BS      43.20000        .             .           273.60000        .          367.20000 _C4
+                                            .               +Inf       43.20000          +Inf          +Inf
+
+    10 t5           BS     309.60000        .             .           309.60000        .          367.20000 _C7
+                                            .               +Inf      309.60000          +Inf          +Inf
+
+End of report
