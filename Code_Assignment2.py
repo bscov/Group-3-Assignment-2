@@ -335,3 +335,110 @@ for v in probr.variables():
 print("Objective", value(probr.objective))
 print("")
 
+# # Independent Contractor
+
+# ### Product Prototype Development
+
+# In[49]:
+
+
+#define variables
+d0 = LpVariable("d0", 0, None)
+d1 = LpVariable("d1", 0, None)
+d2 = LpVariable("d2", 0, None)
+d3 = LpVariable("d3", 0, None)
+d4 = LpVariable("d4", 0, None)
+d5 = LpVariable("d5", 0, None)
+d6 = LpVariable("d6", 0, None)
+d7 = LpVariable("d7", 0, None)
+d8 = LpVariable("d8", 0, None)
+
+#define the problem that maximizes profit
+probp = LpProblem("problem", LpMinimize)
+
+#define constraints
+probp += d0*(-1) + d1*1 >= 18
+probp += d1*(-1) + d2*1 >= 66
+probp += d1*(-1) + d3*1 >= 44
+probp += d2*1 + d3*(-1) >= 0
+probp += d2*(-1) + d4*1 >= 44
+probp += d4*(-1) + d5*1 >= 44
+probp += d4*(-1) + d6*1 >= 22
+probp += d6*(-1) + d7*1 >= 22
+probp += d5*1 + d7*(-1) >= 0
+probp += d5*(-1) + d8*1 >= 22
+
+ 
+#define objective function
+probp += d8 - d0
+
+#solve problem
+probp.writeLP("probp.lp")
+probp.solve(GLPK(msg=True, options=['--ranges', 'sensitivity_contract_p.txt']))
+print("Status:", LpStatus[probp.status])
+
+probp_results = []
+
+for v in probp.variables():
+    print(v.name, "=", v.varValue)
+    probp_results.append(v.varValue)
+    
+print("Objective", value(probp.objective))
+print("")
+
+
+# In[50]:
+
+
+prototype = probp_results[8]
+prototype
+
+
+# ### Recommendation System Development
+
+# In[51]:
+
+
+#define variables
+t0 = LpVariable("t0", 0, None)
+t1 = LpVariable("t1", 0, None)
+t2 = LpVariable("t2", 0, None)
+t3 = LpVariable("t3", 0, None)
+t4 = LpVariable("t4", 0, None)
+t5 = LpVariable("t5", 0, None)
+t6 = LpVariable("t6", 0, None)
+t7 = LpVariable("t7", 0, None)
+t8 = LpVariable("t8", 0, None)
+t9 = LpVariable("t9", 0, None)
+
+#define the problem that maximizes profit
+probr = LpProblem("problem", LpMinimize)
+
+#define constraints
+probr += t0*(-1) + t1*1 >= 9
+probr += t0*(-1) + t2*1 >= 44
+probr += t1*(-1) + t4*1 >= prototype
+probr += t1*(-1) + t3*1 >= 44
+probr += t2*(-1) + t3*1 >= 0
+probr += t4*(-1) + t8*1 >= 0 
+probr += t4*(-1) + t5*1 >= 0 
+probr += t3*(-1) + t5*1 >= 44
+probr += t5*(-1) + t6*1 >= 26
+probr += t7*1 + t8*(-1) >= 26
+probr += t6*(-1) + t7*1 >= 0 
+probr += t1*(-1) + t8*1 >= 0 
+probr += t7*(-1) + t9*1 >= 44
+ 
+#define objective function
+probr += t9 - t0
+
+#solve problem
+probr.writeLP("probr.lp")
+probr.solve(GLPK(msg=True, options=['--ranges', 'sensitivity_contract_r.txt']))
+print("Status:", LpStatus[probr.status])
+
+for v in probr.variables():
+    print(v.name, "=", v.varValue)
+    
+print("Objective", value(probr.objective))
+print("")
