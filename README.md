@@ -2,7 +2,7 @@
 ## MSDS 460 Homework Assignment 2: Network Models---Project Management
 Griffin Arnone, Anhua Cheng, & Bailey Scoville
 ## Objective
-The objective of this critical path analysis problem is to utilize linear programming to determine the minimum number of hours needed to complete a sixteen-task project to develop a recommendation system for a client. Three variations of this problem were conducted to solve for the optimal expected, best-case, and worst-case minimum hours to complete the tasks.
+The objective of this critical path analysis problem is to utilize linear programming to determine the minimum number of hours needed to complete a sixteen-task project to develop a recommendation system for a client. Three variations of this problem were conducted to solve for the optimal expected, best-case, and worst-case minimum hours to complete the tasks. A full discussion of the problem and results are included in this [paper](https://github.com/bscov/Group-3-Assignment-2/blob/main/Paper_Homework_Assignment2.pdf).
 ## Tasks
 The sixteen tasks have been divided into two eight-task projects, with the prototype project being nested within the larger recommendation system project:
 
