@@ -66,6 +66,12 @@ The linear programming code utilizes the Python PuLP library and GNU Linear Prog
 
 ## Results
 The results are rounded to whole integers. Total cost is estimated using a $200,000 annual salary ($100 hourly rate) for each project team member.
+### Critical Path
+The critical path was constant between all three hour estimates:
+- Prototype: d0 - d1 - d2 - d4 - d6 - d7 - d8
+  - requirements analysis, software design, coding, unit testing, system testing, package deliverables
+- Recommendation System: t0 - t1 - t4 - t7 - t8 - t9
+  - describing the product, developing the product prototype, developing implementation plan, writing the client proposal
 ### Expected Problem
 - 336 hours to develop the product prototype
 - 408 hours to develop the recommendation system
