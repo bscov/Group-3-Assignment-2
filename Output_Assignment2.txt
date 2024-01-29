@@ -225,3 +225,78 @@ t7 = 404.8
 t8 = 378.4
 t9 = 448.8
 Objective 448.8
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/b171a13156604f09bf50d88488bb83d3-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/b171a13156604f09bf50d88488bb83d3-pulp.sol
+ --ranges sensitivity_contract_p.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/b171a13156604f09bf50d88488bb83d3-pulp.lp'...
+10 rows, 9 columns, 20 non-zeros
+15 lines were read
+GLPK Simplex Optimizer 5.0
+10 rows, 9 columns, 20 non-zeros
+Preprocessing...
+9 rows, 8 columns, 18 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 9
+      0: obj =   2.200000000e+01 inf =   2.600e+02 (7)
+      8: obj =   1.940000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (42553 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/b171a13156604f09bf50d88488bb83d3-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_contract_p.txt'...
+Status: Optimal
+d0 = 0.0
+d1 = 18.0
+d2 = 84.0
+d3 = 62.0
+d4 = 128.0
+d5 = 172.0
+d6 = 150.0
+d7 = 172.0
+d8 = 194.0
+Objective 194.0
+
+194.0
+
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --cpxlp /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/cd73bebbf0824509bac2f8c70492b48e-pulp.lp
+ -o /var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/cd73bebbf0824509bac2f8c70492b48e-pulp.sol
+ --ranges sensitivity_contract_r.txt
+Reading problem data from '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/cd73bebbf0824509bac2f8c70492b48e-pulp.lp'...
+13 rows, 10 columns, 26 non-zeros
+18 lines were read
+GLPK Simplex Optimizer 5.0
+13 rows, 10 columns, 26 non-zeros
+Preprocessing...
+12 rows, 9 columns, 24 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 12
+      0: obj =   4.400000000e+01 inf =   3.870e+02 (7)
+     11: obj =   2.730000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.0 Mb (44065 bytes)
+Writing basic solution to '/var/folders/z0/v3y1p30945d16_whz3lt8v_h0000gn/T/cd73bebbf0824509bac2f8c70492b48e-pulp.sol'...
+Write sensitivity analysis report to 'sensitivity_contract_r.txt'...
+Status: Optimal
+t0 = 0.0
+t1 = 9.0
+t2 = 44.0
+t3 = 53.0
+t4 = 203.0
+t5 = 203.0
+t6 = 229.0
+t7 = 229.0
+t8 = 203.0
+t9 = 273.0
+Objective 273.0
